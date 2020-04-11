@@ -430,3 +430,9 @@ body {
     width: 32px;
   }
 }
+
+@media all and (display-mode: standalone) {
+  body {
+    background-color: yellow;
+  }
+}
